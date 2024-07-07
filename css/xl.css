@@ -1,0 +1,48 @@
+@media (min-width: 1201px) and (max-width: 1400px){
+    .topHeader{
+        width: 100%;
+        float: right;
+    }
+    .logo{
+        float: right;
+        position: relative;
+        top: 10px;
+    }
+    .instagram{
+        float: left;
+    }
+    .navBox{
+        display: flex;
+        align-items: center;
+        direction: rtl;
+    }
+    .navBox .nav{
+        padding: 10px 0;
+    }
+    .navBox .nav ul{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        direction: rtl;
+    }
+    .navBox .nav ul li{
+        margin-left: 5px;
+    }
+    .nav ul li a{
+        display: block;
+        text-decoration: none;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+        transition: all .5s ease;
+    }
+    .barBox{
+        margin-right: 5px;
+        display: flex;
+        align-items: center;
+    }
+    .barBox button.mobile{
+        display: none;
+    }
+
+}

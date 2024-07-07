@@ -1,0 +1,51 @@
+@media (min-width: 992px) and (max-width: 1200px){
+    .topHeader{
+        width: 100%;
+    }
+    .logo , .instagram{
+        float: none;
+    }
+    .instagram{
+        width: 100%;
+    }
+    .logo{
+        position: static;
+        margin: 20px auto;
+    }
+    .navBox{
+        display: block;
+        position: relative;
+    }
+    .navBox .nav{
+        position: absolute;
+        width: 100%;
+        top: 100%;
+        right: 0;
+        display: none;
+    }
+    .navBox .nav ul{
+        list-style: none;
+        background-color: #111;
+        padding: 20px;
+    }
+    .nav li a{
+        display: block;
+        text-decoration: none;
+        color: #fff;
+        padding: 20px;
+        direction: rtl;
+        text-align: right;
+        transition: all .5s ease;
+    }
+    .barBox{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+        margin-right: 20px;
+        direction: rtl;
+    }
+    .barBox button.mobile{
+        display: block;
+    }
+}
