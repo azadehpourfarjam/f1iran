@@ -45,4 +45,15 @@
         display: none;
     }
 
+    /* ... */
+    .boxes .row{
+        justify-content: center;
+        width: 900px;
+        padding: 30px;
+        margin: 20px auto;
+    }
+    .boxes .row .newsBox{
+        margin-left: 20px;
+    }
+
 }

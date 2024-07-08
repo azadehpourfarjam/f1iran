@@ -47,4 +47,17 @@
     .barBox button.mobile{
         display: block;
     }
+    /* ... */
+    .boxes .row{
+        width: 700px;
+        justify-content: center;
+        margin: 20px auto;
+    }
+    .boxes .row .newsBox{
+        margin-left: 20px;
+        width: 100%;
+    }
+    .boxes .row .newsBox img{
+        width: inherit;
+    }
 }

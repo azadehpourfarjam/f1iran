@@ -28,6 +28,10 @@ body{
     height: 20px;
 }
 
+.boxes{
+    border: 2px solid purple;
+    padding: 20px;
+}
 
 .topHeader img{
     display: block;
@@ -43,6 +47,8 @@ body{
     background-color: #111;
     padding-top: 20px;
     padding-bottom: 20px;
+    position: relative;
+    z-index: 10;
 }
 .nav ul li a span{
     margin-left: 4px;
@@ -73,3 +79,32 @@ body{
 }
 
 
+.boxes .row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.newsBox{
+    box-shadow: 2px 2px 2px lightgrey , -2px -2px 2px lightgrey;
+    border-radius: 5px;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 30px;
+}
+.newsBox img{
+    display: block;
+    border-radius: 5px;
+}
+.news-title{
+    position: absolute;
+    z-index:10;
+    bottom:0;
+    right: 0;
+    width: 100%;
+    padding: 20px;
+    direction: rtl;
+    text-align: right;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+}
