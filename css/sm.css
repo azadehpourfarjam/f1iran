@@ -59,12 +59,12 @@
         width: 100%;
     }
     .news-wrapper{
-        display: block;
+        display: block !important;
     }
     .news-wrapper img{
-        display: block;
-        width: 100%;
-        margin-bottom: 10px;
+        display: block !important;
+        width: 100% !important;
+        margin-bottom: 10px !important;
     }
     .mr{
         margin-right: 0 !important;
