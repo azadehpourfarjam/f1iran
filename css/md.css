@@ -79,7 +79,7 @@
     }
     .des h1{
         width:100% !important;
-        font-size: 17px;
+        font-size: 15px !important;
         text-align: center !important;
         color: whitesmoke;
     }
@@ -138,5 +138,8 @@
     }
     .footer-right-side{
         margin-bottom: 30px;
+    }
+    .footer-left-side{
+        margin-right: 0 !important;
     }
 }
