@@ -58,13 +58,28 @@
     .boxes .row .newsBox img{
          width: 100%;
     }
+
     .news-wrapper{
         display: block !important;
     }
     .news-wrapper img{
         display: block !important;
-        width: 100% !important;
-        margin-bottom: 10px !important;
+        width: 300px !important;
+        margin: auto auto;
+        border-radius: 10px;
+    }
+    .news-wrapper .des{
+        padding: 30px 5px !important;
+        margin-right: 0 !important;
+    }
+    .news-wrapper .des .dec-os{
+        justify-content: center;
+    }
+    .des h1{
+        width:100% !important;
+        font-size: 17px;
+        text-align: center !important;
+        color: whitesmoke;
     }
     .mr{
         margin-right: 0 !important;
