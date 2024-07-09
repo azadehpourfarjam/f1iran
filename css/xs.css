@@ -127,6 +127,9 @@
 
 
     /* footer */
+    .footer-top{
+        justify-content: center;
+    }
 
     .footer-top .footer-right-side{
         margin-bottom: 50px;
