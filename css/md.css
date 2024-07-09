@@ -60,7 +60,18 @@
     .boxes .row .newsBox img{
         width: inherit;
     }
-
+     /* telegrm */
+    .telegram{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .telegram a{
+        width: 500px;
+    }
+    .telegram a img{
+        width: 100%;
+    }
     /* cotent-items */
     .content-items{
         width: 500px;

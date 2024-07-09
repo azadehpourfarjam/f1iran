@@ -58,10 +58,22 @@
     .boxes .row .newsBox img{
         width: 100%;
     }
+    /* telegrm */
+    .telegram{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .telegram a{
+        width: 100%;
+    }
+    .telegram a img{
+        width: 100%;
+    }
 
     /* cotent-items */
     .content-items{
-
+      justify-content: center;
     }
     .item-content>a{
         width: 100%;
