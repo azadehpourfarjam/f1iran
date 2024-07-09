@@ -29,7 +29,6 @@ body{
 }
 
 .boxes{
-    border: 2px solid purple;
     padding: 20px;
 }
 
@@ -107,4 +106,321 @@ body{
     color: #fff;
     font-size: 17px;
     font-weight: bold;
+}
+.content-items{
+    padding: 30px 20px;
+    direction: rtl;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:baseline;
+}
+.item{
+    box-shadow: 2px 2px 2px lightgrey , -2px -2px 2px lightgrey;
+    border-radius: 7px;
+}
+.item-bg{
+    background:linear-gradient(360deg,#383838,#0a0a0a,#2d2d2d,#2b2a2a);
+}
+.item-bg1{
+    background:linear-gradient(360deg,#ddd,whitesmoke,#d3d3d3,#eee);
+}
+.item-bg2{
+    background: -webkit-linear-gradient(0deg, #ffab2a 0, #ffec8e 100%);
+}
+.item-header{
+    padding: 20px;
+}
+.item-header1{
+    box-shadow: 0 0 10px #c5c5c5;
+    border-bottom: 3px solid #eee;
+}
+.item-header2{
+    box-shadow: 0 0 10px #aaa;
+    border-bottom: 3px solid #999;
+}
+.item-header3{
+    box-shadow: 0 0 10px #aaa;
+    border-bottom: 3px solid #999;
+    border-radius: 10px;
+    padding: 20px 40px;
+}
+
+
+.item-header h1{
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+.item-header3 h1{
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color:black;
+}
+.item-header p{
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 15px;
+    color: whitesmoke;
+}
+.item-header p a{
+    text-decoration: none;
+    background-color: #ffab2a;
+    padding: 4px;
+    border-radius: 3px;
+    font-size: 16px;
+    color: #3e3e3e;
+    transition: all .5s ease;
+}
+.item-header p a:hover{
+    color: white;
+}
+.item-content{
+    padding: 20px 0;
+}
+.item-content>a{
+    display: block;
+}
+.item-content>a>img{
+    display: block;
+}
+.rain{
+    padding: 20px;
+}
+.rain h1{
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    font-size: 16px;
+    text-align: right;
+}
+.dec-os{
+    display: flex;
+    align-items: center;
+}
+.name{
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+.name span{
+    margin-left: 5px;
+}
+.last{
+    line-height: 40px;
+    text-align: center;
+    color: #ddd;
+    font-size: 14px;
+    margin-right: 20px;
+}
+.news-wrapper{
+    padding: 20px 5px;
+    display: flex;
+    align-items: center;
+}
+.news-wrapper .des{
+    padding: 5px;
+    margin-right: 5px;
+}
+.des h1{
+    width:220px;
+    font-size: 17px;
+    text-align: right;
+    color: whitesmoke;
+}
+.img-block{
+    display: block;
+}
+.bg-grey{
+    background-color: lightgrey !important;
+}
+.bg-black{
+    background-color: black;
+ }
+.mr{
+    margin-right: 30px;
+}
+.font-black{
+    color: black !important;
+}
+
+.social{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    direction: ltr;
+}
+.social a{
+    display: block;
+    text-decoration: none;
+    background-color: inherit;
+    padding: 5px;
+}
+.social a img{
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: inherit;
+}
+.user-panel{
+    padding: 10px;
+}
+.panel-heading{
+    background: linear-gradient(360deg, #2274ad 0, #00223a 100%);
+    padding: 15px 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+.user-panel form label{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+    text-align: right;
+}
+.user-panel form input{
+    display: block;
+    width: 100%;
+    outline: none;
+    padding:12px 10px;
+    font-size: 14px;
+    text-align: right;
+    border: 2px solid lightgrey;
+    border-radius: 7px;
+    background-color: whitesmoke;
+}
+.remember{
+    display: flex;
+    align-items: center;
+}
+.remember{
+    padding: 20px 0;
+}
+.remember span{
+    display: block;
+    line-height: 20px;
+    font-size: 15px;
+}
+.remember input[type=checkbox]{
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid gray;
+    margin-right: 5px;
+}
+.teams-org{
+    padding: 20px 0;
+}
+.table{
+    width: 350px;
+}
+.table thead{
+    background: linear-gradient(180deg,#2b2b2b 30%,rgba(0,0,0,.3));
+    color: #fff;
+    font-size: 14px;
+}
+.table thead th{
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: none !important;
+}
+.table tbody td{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.td-bg {
+    background: linear-gradient(45deg, #e1e2f9, #989898);
+    border-left: 5px solid #d4d4d4 !important;
+    color: #4b4949;
+}
+
+.td-bg-2 {
+    background: linear-gradient(45deg, #e1e2f9, #989898);
+    border-right: 3px solid #eb9812 !important;
+    color: #4b4949;
+}
+.table tbody tr td:nth-of-type(2){
+    transition: all .5s ease;
+}
+.table tbody tr td:nth-of-type(2):hover{
+    background-color: lightgrey;
+}
+.telegram {
+    padding: 20px 50px;
+    direction: rtl;
+}
+.telegram a{
+    display: block;
+    text-decoration: none;
+}
+.telegram a img{
+    display: block;
+    border-radius: 10px;
+}
+.footer{
+    background-color: #1b1b1b;
+    margin-top: 30px;
+    padding: 20px;
+}
+.footer-top{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+    direction: rtl;
+}
+
+.footer-right-side p {
+    font-size: 1.2rem !important;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 25px;
+    margin-top: 30px;
+}
+.footer-left-side{
+    margin-right: 30px;
+}
+.footer-right-side h3{
+    font-size: 1.3rem !important;
+    font-weight: 700;
+    color: #fff;
+}
+.footer-list {
+    margin-top: 40px;
+    padding: 20px 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    direction: rtl;
+}
+.footer-list li{
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    padding: 0 20px;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+.footer-list li:hover{
+    background-color: darkcyan;
+    color: black;
 }

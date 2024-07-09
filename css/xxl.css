@@ -44,7 +44,12 @@
 
     .boxes .row{
         justify-content: space-between;
-        justify-content: space-between;
+    }
+
+    /* cotent-items */
+
+    .content-items{
+        justify-content: center;
     }
 
 }

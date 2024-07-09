@@ -56,4 +56,23 @@
     .boxes .row .newsBox{
         margin-left: 20px;
     }
+
+    /* footer */
+    .footer-top{
+        justify-content: center;
+    }
+    .footer-right-side{
+        margin-bottom: 30px;
+    }
+    /* cotent-items */
+     .content-items{
+         justify-content: center;
+     }
+    .content-items .item:nth-of-type(3){
+        width: 100%;
+        margin-top: 50px;
+    }
+    .table{
+        width: 100% !important;
+    }
 }
