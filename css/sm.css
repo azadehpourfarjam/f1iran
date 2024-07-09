@@ -138,6 +138,10 @@
     .footer-top .footer-right-side{
         margin-bottom: 50px;
     }
+    .footer-left-side img{
+        display: block !important;
+        margin: 20px auto !important;
+    }
 
     .footer-list{
         display: block !important;

@@ -142,4 +142,8 @@
     .footer-left-side{
         margin-right: 0 !important;
     }
+    .footer-left-side img{
+        display: block !important;
+        margin: 20px auto !important;
+    }
 }
