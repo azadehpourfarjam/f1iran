@@ -58,6 +58,17 @@
     .boxes .row .newsBox img{
         width: 100%;
     }
+    .news-wrapper{
+        display: block;
+    }
+    .news-wrapper img{
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .mr{
+        margin-right: 0 !important;
+    }
     /* telegrm */
     .telegram{
         display: flex;
